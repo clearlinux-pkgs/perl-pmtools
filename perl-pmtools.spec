@@ -4,7 +4,7 @@
 #
 Name     : perl-pmtools
 Version  : 2.2.0
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/M/ML/MLFISHER/pmtools-2.2.0.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/ML/MLFISHER/pmtools-2.2.0.tar.gz
 Summary  : 'Perl Module Tools'
@@ -174,5 +174,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Devel/Loaded.pm
-/usr/lib/perl5/vendor_perl/5.34.0/pmtools.pm
+/usr/lib/perl5/*
